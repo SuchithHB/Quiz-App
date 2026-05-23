@@ -1,0 +1,24 @@
+package com.telusko.QuizApp.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class questionDTO {
+    private Integer id;
+
+    private String category;
+
+    private String difficultyLevel;
+
+    private String questionTitle;
+
+    private String option1;
+
+    private String option2;
+
+    private String option3;
+
+    private String option4;
+}
